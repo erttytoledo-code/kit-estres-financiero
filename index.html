@@ -49,6 +49,13 @@ details{background:var(--card);border-radius:12px;padding:16px 18px;margin-botto
 summary{font-weight:700;color:var(--navy);cursor:pointer}
 details p{margin:10px 0 0;color:var(--txt)}
 .who{display:grid;gap:12px}
+.ben{display:grid;gap:10px;margin-top:8px}
+.ben div{background:#12284a;border-radius:12px;padding:14px 16px}
+.ben b{display:block;color:#fff;font-size:18px;margin-bottom:2px}
+.ben span{font-size:16px}
+a,button,summary{-webkit-tap-highlight-color:transparent;min-height:44px}
+summary{display:flex;align-items:center}
+@media(min-width:700px){.ben{grid-template-columns:1fr 1fr}}
 .bar{position:fixed;left:0;right:0;bottom:0;background:#fff;box-shadow:0 -2px 12px rgba(11,29,58,.15);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;transform:translateY(110%);transition:transform .25s;z-index:10}
 .bar.on{transform:none}
 .bar span{font-weight:700;color:var(--navy);font-size:15px;line-height:1.2}
@@ -81,6 +88,22 @@ footer a{color:var(--mut)}
    <li>Todo lo que has leído es técnico y se queda en "algún día lo ordeno".</li>
   </ul>
   <p>No te falta disciplina ni ganar más. Nadie te enseñó a manejar la plata, y aun así te toca hacerlo todos los días. <strong>Lo primero no es ahorrar más: es mirar adónde se va lo que ya ganas.</strong></p>
+ </div>
+</section>
+
+<section style="background:var(--navy);color:#cfd9e8">
+ <div class="wrap">
+  <span class="kicker">Hablemos de plata</span>
+  <h2 style="color:#fff">Cuidar tu plata también es cuidar tu salud</h2>
+  <p>Hablar de plata no debería ser un tema tabú. Cuidas lo que comes, cuánto duermes y cómo te mueves; tus finanzas también son parte de tu bienestar integral.</p>
+  <p>La incertidumbre sobre la plata se siente en el cuerpo: no duermes bien, evitas abrir la cuenta del banco, discutes por gastos. Cuando la ordenas, cambia mucho más que tu saldo:</p>
+  <div class="ben">
+   <div><b>Menos estrés</b><span>Sabes dónde estás parado, sin sorpresas a fin de mes.</span></div>
+   <div><b>Mejor calidad de vida</b><span>Gastas en lo que te importa y dejas de gastar en lo que no.</span></div>
+   <div><b>Más libertad para elegir</b><span>Decides con calma, no por urgencia ni por deuda.</span></div>
+   <div><b>Más tiempo</b><span>Menos horas preocupado y más para tu familia y para ti.</span></div>
+  </div>
+  <p style="margin-top:16px">No se trata de tener más, sino de tener claridad. Y eso se aprende.</p>
  </div>
 </section>
 
@@ -157,10 +180,10 @@ footer a{color:var(--mut)}
  <div class="wrap">
   <h2>Quién está detrás</h2>
   <p>Soy Estefanía Toledo, ingeniera civil industrial de la Universidad de Chile, emprendedora e inversionista inmobiliaria.</p>
-  <p>Me apasiona la organización financiera, y todo lo que sé lo aprendí en la práctica: en cinco años compré siete propiedades, y eso me dio una independencia financiera de ocho años. Pero nada de eso parte comprando. Parte por lo que haces en este kit: saber adónde se va tu plata y ordenarla.</p>
+  <p>Me apasiona la organización financiera, y todo lo que sé lo aprendí en la práctica: en cinco años compré siete propiedades. Pero nada de eso parte comprando. Parte por lo que haces en este kit: saber adónde se va tu plata y ordenarla.</p>
   <p>Mi misión es ayudar a miles de personas a organizarse financieramente. Por eso creé @tuhabitofinanciero_: para hablar de plata sin culpa ni tecnicismos.</p>
   <!-- Opcional: agregar foto -->
-  <!-- Cifras (5 años, 7 propiedades, 8 años) tomadas de la clase 2023: confirmar que siguen vigentes -->
+  <!-- Cifras (5 años, 7 propiedades) tomadas de la clase 2023: confirmar que siguen vigentes -->
 
  </div>
 </section>
