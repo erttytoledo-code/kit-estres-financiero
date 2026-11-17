@@ -58,8 +58,10 @@ summary{display:flex;align-items:center}
 @media(min-width:700px){.ben{grid-template-columns:1fr 1fr}}
 .bar{position:fixed;left:0;right:0;bottom:0;background:#fff;box-shadow:0 -2px 12px rgba(11,29,58,.15);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;transform:translateY(110%);transition:transform .25s;z-index:10}
 .bar.on{transform:none}
-.bar span{font-weight:700;color:var(--navy);font-size:15px;line-height:1.2}
-.bar .btn{width:auto;padding:12px 20px;font-size:16px}
+.bar{padding:12px 16px calc(12px + env(safe-area-inset-bottom))}
+.bar span{font-weight:800;color:var(--navy);font-size:18px;line-height:1.2}
+.bar .btn{flex:1;max-width:340px;padding:18px 24px;font-size:20px;min-height:58px}
+body{padding-bottom:100px}
 footer{font-size:13px;color:var(--mut);padding:10px 0 30px}
 footer a{color:var(--mut)}
 @media(min-width:700px){.who{grid-template-columns:1fr 1fr}}
@@ -123,6 +125,36 @@ footer a{color:var(--mut)}
    <div class="cap"><div><h3>Evalúa tu crédito hipotecario <span class="tag">Herramienta</span></h3><small>Dividendo, plazo, costo total y peso sobre tu ingreso.</small></div></div>
    <div class="cap"><div><h3>Tu plan de 12 meses</h3><small>Todo junto en una ruta simple que puedes seguir.</small></div></div>
   </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <span class="kicker" style="color:var(--teal)">Herramientas prácticas</span>
+  <h2>No te quedas en la teoría: lo aplicas</h2>
+  <p>Este kit no es solo para mirar videos. En cada cápsula hay un ejercicio aplicado y una herramienta para trabajar con tus propios números, de modo que al terminar tengas <strong>tu propio mapa de acciones</strong>: qué hacer, en qué orden y con cuánta plata.</p>
+  <ul class="incl card">
+   <li>Presupuesto editable donde cada peso tiene destino</li>
+   <li>Calculadora de patrimonio con tus activos y deudas</li>
+   <li>Simulador hipotecario para comparar plazos y costo total</li>
+   <li>Calculadora de capacidad de ahorro para ver tu brecha real</li>
+  </ul>
+ </div>
+</section>
+
+<section style="background:#fff">
+ <div class="wrap">
+  <h2>Qué vas a ganar con el curso</h2>
+  <ul class="incl card" style="box-shadow:none;background:#f2fbf8">
+   <li>Claridad total de adónde se va tu plata cada mes</li>
+   <li>Un presupuesto simple que sí puedes mantener</li>
+   <li>Un hábito de ahorro y un fondo de emergencia en marcha</li>
+   <li>Un orden claro para pagar tus deudas y gastar menos en intereses</li>
+   <li>Saber cuánto vale lo que tienes (tu patrimonio)</li>
+   <li>Criterio para decidir si invertir o comprar una propiedad te conviene</li>
+   <li>Menos estrés, más tiempo y más libertad para elegir</li>
+   <li>Un plan de 12 meses con acciones concretas</li>
+  </ul>
  </div>
 </section>
 
